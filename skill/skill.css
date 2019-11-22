@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lora';
+}
+body{
+  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+  url(img/blank-composition-data-373076.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+a:hover{
+  transition:  color .5s;
+  color: rgb(3, 201, 250);
+}
+header{
+  height: 55px;
+  width: 100%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #0005;
+}
+.nav-link{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.mine
